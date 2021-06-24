@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuMain2.DetailFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percobaan_1"
+        android:id="@+id/Judul"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berikut Deskripsi Dari Percobaan 1"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/Deskripsi"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="My Profile"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/Profile"
+        android:background="@android:color/holo_orange_light"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Isi Dialog"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/Isi_Dialog"
+        android:background="@android:color/holo_orange_light"/>
+
+</LinearLayout>

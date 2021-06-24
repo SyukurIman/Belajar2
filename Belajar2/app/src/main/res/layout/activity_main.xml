@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/weather"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_orange_light"
+                android:src="@drawable/cuaca_logo" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_orange_light"
+                android:text="Cuaca" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_orange_light"
+                android:text="Weathering with you" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/kalkulator"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_red_light"
+                android:src="@drawable/kalkulator" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/kalkulator"
+                android:textSize="14sp" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/pindah_ke_kalkulator" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/Inspiracion"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_blue_dark"
+                android:src="@drawable/motivator" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_blue_bright"
+                android:text="@string/katabijak" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/kata_kata_mutiara" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/main2"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_orange_dark"
+                android:src="@drawable/redmi5" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/menudua" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/menu_main_kedua" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/coronaMenu"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_red_light"
+                android:src="@drawable/corona_chan" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/corona" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/menu_virus_corona" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/main3"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_orange_dark"
+                android:src="@drawable/pixel_google" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/menutiga" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/menu_main_ketiga" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/PindahObjek"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/holo_blue_dark"
+                android:src="@drawable/indah" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/holo_blue_bright"
+                android:text="@string/moveon" />
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/pindah_dengan_objek" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/DetailPemandangan"
+            style="@style/FrameHome">
+
+            <ImageView
+                style="@style/ImageViewHome"
+                android:background="@android:color/background_light"
+                android:src="@drawable/pemandangan1" />
+
+            <TextView
+                style="@style/LogoSamping"
+                android:background="@android:color/background_light"
+                android:text="Pemandangan"/>
+
+            <Button
+                style="@style/ButtonHome"
+                android:background="@android:color/background_light"
+                android:text="Pemandangan Alam"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/result_dari_data_diri"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
